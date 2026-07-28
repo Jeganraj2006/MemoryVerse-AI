@@ -1,0 +1,80 @@
+digraph MemoryVerse {
+  graph [rankdir=TB, bgcolor="#07101f", pad="0.35", nodesep="0.35", ranksep="0.55", fontname="Arial", splines=ortho];
+  node [shape=box, style="rounded,filled", fontname="Arial", fontsize=10, color="#334155", fontcolor="#e2e8f0", fillcolor="#111c30", margin="0.17,0.11"];
+  edge [fontname="Arial", fontsize=8, color="#64748b", fontcolor="#94a3b8", arrowsize=0.7];
+
+  user [label="Student / Recruiter", shape=oval, fillcolor="#102a43", color="#38bdf8"];
+  ui [label="React Experience\nDashboard · Upload · Passport · Graph · Cited Chat · Share", fillcolor="#172554", color="#60a5fa"];
+  auth [label="Supabase Auth\nJWT session"];
+  api [label="FastAPI API\nOwner-scoped endpoints", fillcolor="#172554", color="#60a5fa"];
+
+  subgraph cluster_ingestion {
+    label="1 · PRIVATE EVIDENCE INGESTION"; color="#1e3a5f"; fontcolor="#93c5fd"; style="rounded";
+    files [label="Files\nPDF · DOCX · Images"];
+    github [label="GitHub REST API\nREADME · Languages · Topics"];
+    extract [label="Page-aware extraction\npdfplumber · OCR · DOCX"];
+    structure [label="Gemini metadata extraction\nconfidence + review fields"];
+    fingerprint [label="Trust layer\nSHA-256 · duplicate check\nsource status"];
+    storage [label="Private Supabase Storage\nuser/document/file paths\nsigned URLs", fillcolor="#12312f", color="#34d399"];
+    {rank=same; files; github;}
+    files -> extract;
+    github -> structure;
+    extract -> structure;
+    structure -> fingerprint;
+    fingerprint -> storage;
+  }
+
+  subgraph cluster_knowledge {
+    label="2 · EVIDENCE KNOWLEDGE LAYER"; color="#1e3a5f"; fontcolor="#93c5fd"; style="rounded";
+    chunks [label="Evidence chunker\npage + chunk metadata"];
+    embed [label="Gemini Embedding 2\nasymmetric retrieval format"];
+    chroma [label="ChromaDB\nprivate per-user chunk index", fillcolor="#12312f", color="#34d399"];
+    postgres [label="Supabase Postgres\ndocuments · relationships · shares\nRLS", fillcolor="#12312f", color="#34d399"];
+    rel [label="Evidence relationship engine\nshared skills + chronology\nAI-validated links"];
+    passport [label="Skill Evidence Passport\nClaimed → Certified → Demonstrated\n→ Applied → Verified / Repeated", fillcolor="#3b1d52", color="#c084fc"];
+    chunks -> embed -> chroma;
+    postgres -> rel -> postgres;
+    postgres -> passport;
+  }
+
+  subgraph cluster_rag {
+    label="3 · HYBRID GRAPH-RAG"; color="#1e3a5f"; fontcolor="#93c5fd"; style="rounded";
+    query [label="Natural-language question"];
+    vector [label="Per-user semantic\nchunk retrieval"];
+    graph_expand [label="Relationship expansion\nconnected milestones"];
+    prompt [label="Grounded evidence context\n[S#] source blocks"];
+    gen [label="Gemini cited generation\nno unsupported claims"];
+    answer [label="Answer + page citations\n+ graph paths + source links", fillcolor="#3b1d52", color="#c084fc"];
+    query -> vector;
+    vector -> graph_expand;
+    vector -> prompt;
+    graph_expand -> prompt;
+    prompt -> gen -> answer;
+  }
+
+  subgraph cluster_quality {
+    label="4 · TRUST, QUALITY & CONTROLLED SHARING"; color="#1e3a5f"; fontcolor="#93c5fd"; style="rounded";
+    eval [label="Quality dashboard\ncoverage + review metrics\nlabeled Recall@K benchmark"];
+    review [label="Human review loop\ncorrect metadata → re-index\n→ rebuild relationships"];
+    share [label="Revocable share token\nfiltered public passport\ntime-limited source links"];
+    {rank=same; eval; review; share;}
+  }
+
+  user -> ui;
+  ui -> auth -> api;
+  api -> files;
+  api -> github;
+  fingerprint -> postgres;
+  structure -> chunks;
+  api -> postgres;
+  chroma -> vector;
+  postgres -> graph_expand;
+  ui -> query;
+  answer -> ui;
+  passport -> ui;
+  postgres -> eval;
+  postgres -> review;
+  review -> chunks;
+  postgres -> share;
+  share -> ui;
+}

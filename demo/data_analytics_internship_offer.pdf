@@ -1,0 +1,277 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 1
+/Kids [ 4 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 4038
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 76.86614 767.1969 cm
+q
+.019608 .588235 .411765 rg
+BT 1 0 0 1 0 -6 Tm /F2 18 Tf 12 TL (DataSpark Analytics Pvt. Ltd.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 76.86614 753.1969 cm
+q
+.419608 .447059 .501961 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (12th Floor, Prestige Tech Park, Outer Ring Road, Bangalore \227 560103) Tj T* ET
+Q
+Q
+q
+1 0 0 1 76.86614 737.1969 cm
+q
+.419608 .447059 .501961 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (CIN: U72200KA2018PTC110234 | HR: hr@dataspark.in) Tj T* ET
+Q
+Q
+q
+1 0 0 1 76.86614 728.1969 cm
+q
+1 w
+1 J
+.019608 .588235 .411765 RG
+n 0 0 m 441.5433 0 l S
+Q
+Q
+q
+1 0 0 1 76.86614 704.1969 cm
+q
+.066667 .094118 .152941 rg
+BT 1 0 0 1 0 -4 Tm /F2 16 Tf 12 TL (INTERNSHIP OFFER LETTER) Tj T* ET
+Q
+Q
+q
+1 0 0 1 76.86614 688.1969 cm
+q
+.419608 .447059 .501961 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Ref: DSA/HR/INT/2025/0183 | Date: January 12, 2025) Tj T* ET
+Q
+Q
+q
+1 0 0 1 76.86614 672.8583 cm
+Q
+q
+1 0 0 1 76.86614 654.8583 cm
+q
+.121569 .160784 .215686 rg
+BT 1 0 0 1 0 7.5 Tm /F1 10.5 Tf 18 TL (Dear Arjun Mehta,) Tj T* ET
+Q
+Q
+q
+1 0 0 1 76.86614 610.8583 cm
+q
+BT 1 0 0 1 0 25.5 Tm 18 TL /F1 10.5 Tf .121569 .160784 .215686 rg (We are pleased to extend this offer of internship at ) Tj /F2 10.5 Tf (DataSpark Analytics Pvt. Ltd.) Tj /F1 10.5 Tf ( for the) Tj T* (position of ) Tj /F2 10.5 Tf (Data Analytics Intern) Tj /F1 10.5 Tf ( in the Business Intelligence & Data Engineering team.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 76.86614 584.8583 cm
+q
+.121569 .160784 .215686 rg
+BT 1 0 0 1 0 7.5 Tm /F2 10.5 Tf 18 TL (Internship Details:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 76.86614 486.8583 cm
+q
+BT 1 0 0 1 0 79.5 Tm 18 TL /F1 10.5 Tf .121569 .160784 .215686 rg (\177 ) Tj /F2 10.5 Tf (Role:) Tj /F1 10.5 Tf ( Data Analytics Intern \(Business Intelligence\)) Tj  T* (\177 ) Tj /F2 10.5 Tf (Duration:) Tj /F1 10.5 Tf ( 6 months \(February 3, 2025 \227 August 2, 2025\)) Tj  T* (\177 ) Tj /F2 10.5 Tf (Stipend:) Tj /F1 10.5 Tf ( ) Tj /F3 10.5 Tf 18 TL (n) Tj /F1 10.5 Tf 18 TL (25,000/month) Tj  T* (\177 ) Tj /F2 10.5 Tf (Location:) Tj /F1 10.5 Tf ( Bangalore \(Hybrid \227 3 days onsite\)) Tj  T* (\177 ) Tj /F2 10.5 Tf (Reporting to:) Tj /F1 10.5 Tf ( Ms. Sneha Krishnamurthy, Lead Data Analyst) Tj T* ET
+Q
+Q
+q
+1 0 0 1 76.86614 460.8583 cm
+q
+.121569 .160784 .215686 rg
+BT 1 0 0 1 0 7.5 Tm /F2 10.5 Tf 18 TL (Responsibilities:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 76.86614 380.8583 cm
+q
+.121569 .160784 .215686 rg
+BT 1 0 0 1 0 61.5 Tm /F1 10.5 Tf 18 TL (You will work on building and maintaining Power BI dashboards, writing complex SQL queries) Tj T* (for data extraction, performing EDA on client datasets using Python \(Pandas, NumPy\), and) Tj T* (supporting the ML team with feature engineering and data pipeline automation using Apache) Tj T* (Airflow.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 76.86614 336.8583 cm
+q
+BT 1 0 0 1 0 25.5 Tm -0.082305 Tw 18 TL /F2 10.5 Tf .121569 .160784 .215686 rg (Required Skills:) Tj /F1 10.5 Tf ( Python \267 SQL \267 Power BI \267 Pandas \267 NumPy \267 Machine Learning basics \267 Excel) Tj T* 0 Tw (\267 Tableau) Tj T* ET
+Q
+Q
+q
+1 0 0 1 76.86614 314.685 cm
+Q
+q
+1 0 0 1 76.86614 296.685 cm
+q
+.121569 .160784 .215686 rg
+BT 1 0 0 1 0 7.5 Tm /F1 10.5 Tf 18 TL (We look forward to having you as part of our team.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 76.86614 270.685 cm
+q
+.121569 .160784 .215686 rg
+BT 1 0 0 1 0 7.5 Tm /F1 10.5 Tf 18 TL (Warm regards,) Tj T* ET
+Q
+Q
+q
+1 0 0 1 76.86614 254.1811 cm
+Q
+q
+1 0 0 1 76.86614 200.1811 cm
+q
+BT 1 0 0 1 0 43.5 Tm 18 TL /F2 10.5 Tf .121569 .160784 .215686 rg (Rohit Sharma) Tj /F1 10.5 Tf  T* (Head of Human Resources) Tj  T* (DataSpark Analytics Pvt. Ltd.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+q
+1 0.78 0.78 rg
+BT
+/F2-0 27 Tf
+32.4 TL
+ET
+0.848048 0.529919 -0.529919 0.848048 297.6378 420.9449 cm
+BT
+1 0 0 1 -306.0045 0 Tm
+(SYNTHETIC DEMO \055 NOT A REAL CREDENTIAL) Tj
+T*
+ET
+Q
+q
+0.75 0.05 0.05 rg
+BT
+/F2-0 8.5 Tf
+10.2 TL
+ET
+BT
+1 0 0 1 137.3193 10 Tm
+(SYNTHETIC HACKATHON DEMO DOCUMENT \055 NOT VALID FOR VERIFICATION) Tj
+T*
+ET
+Q
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/BaseFont /ZapfDingbats
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 11
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000113 00000 n 
+0000000162 00000 n 
+0000000428 00000 n 
+0000004518 00000 n 
+0000004625 00000 n 
+0000004732 00000 n 
+0000004844 00000 n 
+0000004956 00000 n 
+trailer
+<<
+/Size 11
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+5040
+%%EOF

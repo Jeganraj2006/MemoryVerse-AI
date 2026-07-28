@@ -1,0 +1,14 @@
+[
+  {
+    "query": "Which document proves my Python certification?",
+    "expected_document_titles": ["Python Data Science Certification"]
+  },
+  {
+    "query": "What project demonstrates NLP skills?",
+    "expected_document_titles": ["Sentiment Analysis Project"]
+  },
+  {
+    "query": "Where did I apply data analytics skills professionally?",
+    "expected_document_titles": ["Data Analytics Internship"]
+  }
+]

@@ -1,0 +1,83 @@
+{
+  "cases": 3,
+  "recall_at_5": 1.0,
+  "method": "offline TF-IDF cosine baseline over four synthetic demo documents",
+  "semantic_embedding_claim": false,
+  "details": [
+    {
+      "query": "Which document proves my Python certification?",
+      "expected": [
+        "Python Data Science Certification"
+      ],
+      "retrieved": [
+        {
+          "title": "Python Data Science Certification",
+          "score": 0.0354
+        },
+        {
+          "title": "Smart India Hackathon Winner",
+          "score": 0.0208
+        },
+        {
+          "title": "Data Analytics Internship",
+          "score": 0.0189
+        },
+        {
+          "title": "Sentiment Analysis Project",
+          "score": 0.0125
+        }
+      ],
+      "matched": true
+    },
+    {
+      "query": "What project demonstrates NLP skills?",
+      "expected": [
+        "Sentiment Analysis Project"
+      ],
+      "retrieved": [
+        {
+          "title": "Sentiment Analysis Project",
+          "score": 0.044
+        },
+        {
+          "title": "Smart India Hackathon Winner",
+          "score": 0.0366
+        },
+        {
+          "title": "Python Data Science Certification",
+          "score": 0.0156
+        },
+        {
+          "title": "Data Analytics Internship",
+          "score": 0.0083
+        }
+      ],
+      "matched": true
+    },
+    {
+      "query": "Where did I apply data analytics skills professionally?",
+      "expected": [
+        "Data Analytics Internship"
+      ],
+      "retrieved": [
+        {
+          "title": "Data Analytics Internship",
+          "score": 0.1263
+        },
+        {
+          "title": "Python Data Science Certification",
+          "score": 0.036
+        },
+        {
+          "title": "Sentiment Analysis Project",
+          "score": 0.0191
+        },
+        {
+          "title": "Smart India Hackathon Winner",
+          "score": 0.0
+        }
+      ],
+      "matched": true
+    }
+  ]
+}

@@ -1,0 +1,650 @@
+{
+  "fixture_count": 20,
+  "expected_field_count": 100,
+  "recovered_field_count": 82,
+  "ocr_key_field_recovery": 0.82,
+  "metric_definition": "Expected field recovered when >=70% of normalized field tokens occur in Tesseract output.",
+  "dataset_disclosure": "20 synthetically degraded scans generated from four visibly watermarked demo documents; not a real-world production dataset.",
+  "details": [
+    {
+      "image": "ocr_fixture_scans/python_data_science_cert__messy_1.jpg",
+      "source_document": "python_data_science_cert.pdf",
+      "fields": [
+        {
+          "field": "Certificate of Completion",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "Arjun Mehta",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "Python for Data Science",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "DeepLearning.AI",
+          "recovered": false,
+          "token_coverage": 0.5
+        },
+        {
+          "field": "March 15 2023",
+          "recovered": true,
+          "token_coverage": 1.0
+        }
+      ],
+      "ocr_excerpt": "This is to certify that Arjun Mehta has successfully completed the course Python for Data Science & Machine Learning Bootcamp Duration: 42 hours | Score: 94.5% | Grade: Distinction Skills covered: Python, NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, Machine Learning, Data Visualization, Statist"
+    },
+    {
+      "image": "ocr_fixture_scans/python_data_science_cert__messy_2.jpg",
+      "source_document": "python_data_science_cert.pdf",
+      "fields": [
+        {
+          "field": "Certificate of Completion",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "Arjun Mehta",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "Python for Data Science",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "DeepLearning.AI",
+          "recovered": false,
+          "token_coverage": 0.5
+        },
+        {
+          "field": "March 15 2023",
+          "recovered": false,
+          "token_coverage": 0.333
+        }
+      ],
+      "ocr_excerpt": "This is to certify that Arjun Mehta has successfully completed the. course Python tor Data Science & Machine Learning Bootcamp _ Duration: 42 hours | Score: 94.5% | Grade: Distinction Skills covered: Python, NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, Machine Leasning, Data Visualization, Stat"
+    },
+    {
+      "image": "ocr_fixture_scans/python_data_science_cert__messy_3.jpg",
+      "source_document": "python_data_science_cert.pdf",
+      "fields": [
+        {
+          "field": "Certificate of Completion",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "Arjun Mehta",
+          "recovered": false,
+          "token_coverage": 0.0
+        },
+        {
+          "field": "Python for Data Science",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "DeepLearning.AI",
+          "recovered": false,
+          "token_coverage": 0.5
+        },
+        {
+          "field": "March 15 2023",
+          "recovered": true,
+          "token_coverage": 1.0
+        }
+      ],
+      "ocr_excerpt": "This is to certify that has successfully completed the course Python for Data Science & Machine Learning Bootcamp Duration: 42 hours | Score: 94.5% | Grade: Distinction Skills covered: Python, NumPy, Pandas, Matplotlib. Seaborn, Scikit-learn, Machine Learning; Data Visualization, Statistical Analysi"
+    },
+    {
+      "image": "ocr_fixture_scans/python_data_science_cert__messy_4.jpg",
+      "source_document": "python_data_science_cert.pdf",
+      "fields": [
+        {
+          "field": "Certificate of Completion",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "Arjun Mehta",
+          "recovered": false,
+          "token_coverage": 0.0
+        },
+        {
+          "field": "Python for Data Science",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "DeepLearning.AI",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "March 15 2023",
+          "recovered": true,
+          "token_coverage": 1.0
+        }
+      ],
+      "ocr_excerpt": "This is to certify that has successfully completed the course Python for Data Science & Machine Learning Bootcamp s Duration: 42 hours | Score: 94.5% | Grade: Distinction Skills covered: Python, NuimPy, Panda, Matplotlib, Seaborn, Scikit-learn, Machine Learning, Data. Visualization, Statistical Anal"
+    },
+    {
+      "image": "ocr_fixture_scans/python_data_science_cert__messy_5.jpg",
+      "source_document": "python_data_science_cert.pdf",
+      "fields": [
+        {
+          "field": "Certificate of Completion",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "Arjun Mehta",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "Python for Data Science",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "DeepLearning.AI",
+          "recovered": false,
+          "token_coverage": 0.5
+        },
+        {
+          "field": "March 15 2023",
+          "recovered": true,
+          "token_coverage": 1.0
+        }
+      ],
+      "ocr_excerpt": "This is to certify that . Arjun Mehta has successfully completed the course Python for Data Science & Machine Learning Bootcamp Duration: 42 hours | Score: 94.5% | Grade: Distinction Skills covered: Python, NumPy, Pandas, Maiplotlib, Seaborn, \u2018Scikitleamn, . Machine Learning, Oata Visualization, Sta"
+    },
+    {
+      "image": "ocr_fixture_scans/sentiment_analysis_project__messy_1.jpg",
+      "source_document": "sentiment_analysis_project.pdf",
+      "fields": [
+        {
+          "field": "Sentiment Analysis",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "Arjun Mehta",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "National Institute of Technology",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "November 2024",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "BERT",
+          "recovered": true,
+          "token_coverage": 1.0
+        }
+      ],
+      "ocr_excerpt": "Sentiment Analysis on Social Media Data Machine Learning Capstone Project Report Author: Arjun Mehta | Roll No: 21CS045 | B.Tech CSE \u2014 4th Year Institution: National Institute of Technology, Trichy | Date: November 2024 Abstract This project implements a sentiment analysis pipeline on Twitter/X soci"
+    },
+    {
+      "image": "ocr_fixture_scans/sentiment_analysis_project__messy_2.jpg",
+      "source_document": "sentiment_analysis_project.pdf",
+      "fields": [
+        {
+          "field": "Sentiment Analysis",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "Arjun Mehta",
+          "recovered": false,
+          "token_coverage": 0.5
+        },
+        {
+          "field": "National Institute of Technology",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "November 2024",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "BERT",
+          "recovered": true,
+          "token_coverage": 1.0
+        }
+      ],
+      "ocr_excerpt": "Sentiment Analysis on Social Media Data Machine Learning Capstone Project Report Author: Arun Mehta | Roll No: 21CS045 | B.Tech CSE \u2014 ath Year Institution:-National Institute of Technology, Trichy | Date: November: 2024 Abstract This project implements a sentiment analysis pipeline on Twitter/X soci"
+    },
+    {
+      "image": "ocr_fixture_scans/sentiment_analysis_project__messy_3.jpg",
+      "source_document": "sentiment_analysis_project.pdf",
+      "fields": [
+        {
+          "field": "Sentiment Analysis",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "Arjun Mehta",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "National Institute of Technology",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "November 2024",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "BERT",
+          "recovered": true,
+          "token_coverage": 1.0
+        }
+      ],
+      "ocr_excerpt": "Sentiment Analysis on Social Media Data Machine Learning Capstone Project Report SSS Ss Author: Arjun Mehta | Roll No: 216S845 | B.Tech CSE \u2014 4th Year Institution: National Institute of Technology, Trichy | Date: November 2024 Abstract This project implements a sentiment analysis pipeline on Twitter"
+    },
+    {
+      "image": "ocr_fixture_scans/sentiment_analysis_project__messy_4.jpg",
+      "source_document": "sentiment_analysis_project.pdf",
+      "fields": [
+        {
+          "field": "Sentiment Analysis",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "Arjun Mehta",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "National Institute of Technology",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "November 2024",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "BERT",
+          "recovered": true,
+          "token_coverage": 1.0
+        }
+      ],
+      "ocr_excerpt": ": Sentiment Analysis on Social Media Data Machine Learning Capsfone Project Report : OE + Author: Arjun Mehta | Roll No: 21CS045 | 8.Tech CSE \u2014 4th Year : . Institution: National Institute of Technology, Trichy | Date: November 2024 I Abstract : . . This project implements a sentiment analysis pipel"
+    },
+    {
+      "image": "ocr_fixture_scans/sentiment_analysis_project__messy_5.jpg",
+      "source_document": "sentiment_analysis_project.pdf",
+      "fields": [
+        {
+          "field": "Sentiment Analysis",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "Arjun Mehta",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "National Institute of Technology",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "November 2024",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "BERT",
+          "recovered": true,
+          "token_coverage": 1.0
+        }
+      ],
+      "ocr_excerpt": "Sentiment Analysis on Social Media Data Machine Learning Capstone. Project Report Author: Arjun Mehta | Roll No: 21CS045 | B.Tech CSE \u2014 4th Year institution; National Institute of Technology, Trichy | Date: November 2024 Abstract This project implements a sentiment analysis pipeline on Twitter/X soc"
+    },
+    {
+      "image": "ocr_fixture_scans/smart_india_hackathon_winner__messy_1.jpg",
+      "source_document": "smart_india_hackathon_winner.pdf",
+      "fields": [
+        {
+          "field": "Smart India Hackathon 2024",
+          "recovered": true,
+          "token_coverage": 0.75
+        },
+        {
+          "field": "Winner 1st Prize",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "Arjun Mehta",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "IIT Bombay",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "December 2024",
+          "recovered": false,
+          "token_coverage": 0.5
+        }
+      ],
+      "ocr_excerpt": "GOVERNMENT OF INDIA Ministry of Education | Innovation Cell WINNER \u2014 1st Prize This certificate is proudly awarded to _ Arjun, Mehta, . Problem Statement: Al-Powered Disaster Response Coordination System PS Code: SIH2024-MHA-0847 | Nodal Center: IIT Bombay Project used: Python - FastAPl - TensorFlow"
+    },
+    {
+      "image": "ocr_fixture_scans/smart_india_hackathon_winner__messy_2.jpg",
+      "source_document": "smart_india_hackathon_winner.pdf",
+      "fields": [
+        {
+          "field": "Smart India Hackathon 2024",
+          "recovered": true,
+          "token_coverage": 0.75
+        },
+        {
+          "field": "Winner 1st Prize",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "Arjun Mehta",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "IIT Bombay",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "December 2024",
+          "recovered": false,
+          "token_coverage": 0.5
+        }
+      ],
+      "ocr_excerpt": "GOVERNMENT OF INDIA Ministry of Education } Innovation Cal) WINNER \u2014 1st Prize This certificate is proudly awarded to - Arjun, Mehta, Problem Statement: Al-Powered Disaster Response Coordination System PS Code: SIH2024-MHA-0847 | Nodal Center: IIT Bombay Project used: Python - FastAP) . TensorFlow -"
+    },
+    {
+      "image": "ocr_fixture_scans/smart_india_hackathon_winner__messy_3.jpg",
+      "source_document": "smart_india_hackathon_winner.pdf",
+      "fields": [
+        {
+          "field": "Smart India Hackathon 2024",
+          "recovered": true,
+          "token_coverage": 0.75
+        },
+        {
+          "field": "Winner 1st Prize",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "Arjun Mehta",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "IIT Bombay",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "December 2024",
+          "recovered": false,
+          "token_coverage": 0.5
+        }
+      ],
+      "ocr_excerpt": "GOVERNMENT OF INDIA Ministry of Education | Innovation Cell WINNER \u2014 1st Prize This certificate is proudly awarded to ,.Arjun,Mehta, . Problem Statement: Al-Powered Disaster Response Coordination Syste. PS Code: SIH2024-MHA-0847 | Nodal Center: IIT Bombay Project used: Python - FastAPI - TensorFlow "
+    },
+    {
+      "image": "ocr_fixture_scans/smart_india_hackathon_winner__messy_4.jpg",
+      "source_document": "smart_india_hackathon_winner.pdf",
+      "fields": [
+        {
+          "field": "Smart India Hackathon 2024",
+          "recovered": false,
+          "token_coverage": 0.5
+        },
+        {
+          "field": "Winner 1st Prize",
+          "recovered": false,
+          "token_coverage": 0.667
+        },
+        {
+          "field": "Arjun Mehta",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "IIT Bombay",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "December 2024",
+          "recovered": false,
+          "token_coverage": 0.0
+        }
+      ],
+      "ocr_excerpt": ": GOVERNMENT OF INDIA Ministry of Education | Innovation Cell WINNER \u2014 \u2018st Prize This certificate is proudly awarded to + _ _ \u00bbArjun, Mehta... : Problem Statement: Al-Powered Disaster Response Coordination System PS Code: SIH2024-MHA~0847 | Noda! Center: IT Bombay \u2019 Project used: Python - FastAP! . "
+    },
+    {
+      "image": "ocr_fixture_scans/smart_india_hackathon_winner__messy_5.jpg",
+      "source_document": "smart_india_hackathon_winner.pdf",
+      "fields": [
+        {
+          "field": "Smart India Hackathon 2024",
+          "recovered": true,
+          "token_coverage": 0.75
+        },
+        {
+          "field": "Winner 1st Prize",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "Arjun Mehta",
+          "recovered": false,
+          "token_coverage": 0.5
+        },
+        {
+          "field": "IIT Bombay",
+          "recovered": false,
+          "token_coverage": 0.5
+        },
+        {
+          "field": "December 2024",
+          "recovered": false,
+          "token_coverage": 0.5
+        }
+      ],
+      "ocr_excerpt": "GOVERNMENT OF INDIA Ministry of Education | Innovation Cell WINNER \u2014 1st Prize This certificate is proudly awarded to . _Arun, Mehta... Problem Statement: Al-Powered Disaster Response Coordination System PS Code: SIH2024-MHA-0847 | Nodal Center: iT Bombay Project used: Python, - FastAPl -TensorFlow "
+    },
+    {
+      "image": "ocr_fixture_scans/data_analytics_internship_offer__messy_1.jpg",
+      "source_document": "data_analytics_internship_offer.pdf",
+      "fields": [
+        {
+          "field": "Internship Offer Letter",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "Data Analytics Intern",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "DataSpark Analytics",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "January 12 2025",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "Power BI",
+          "recovered": true,
+          "token_coverage": 1.0
+        }
+      ],
+      "ocr_excerpt": "DataSrark Analytics. Pvt. Lita scoios GIN: U72200KA2018PTC1 10234 | HR: hr@dataspark.in ee INTERNSHIP OFFER LETTER Flef: DSA/HR/INT/2025/0183 | Date: January 12, 2025 Dear Arjun Mehta, We are pleased to extend this offer of internship at DataSpark Analytics Pvt. Ltd. for the position of Data Analyti"
+    },
+    {
+      "image": "ocr_fixture_scans/data_analytics_internship_offer__messy_2.jpg",
+      "source_document": "data_analytics_internship_offer.pdf",
+      "fields": [
+        {
+          "field": "Internship Offer Letter",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "Data Analytics Intern",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "DataSpark Analytics",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "January 12 2025",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "Power BI",
+          "recovered": true,
+          "token_coverage": 1.0
+        }
+      ],
+      "ocr_excerpt": "DataSpark Analytics. Pyt, Lid. 560103 CIN: U72200KA2018PTC1 10234 | HR: hr@dataspark.in INTERNSHIP OFFER LETTER Ref: DSA/HR/INT/2025/0483 | Date: January 12, 2025 Dear Arjun Mehta, We are pleased to extend this offer of internship at DataSpark Analytics Pvt, Ltd. for the Position of Data Analytics I"
+    },
+    {
+      "image": "ocr_fixture_scans/data_analytics_internship_offer__messy_3.jpg",
+      "source_document": "data_analytics_internship_offer.pdf",
+      "fields": [
+        {
+          "field": "Internship Offer Letter",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "Data Analytics Intern",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "DataSpark Analytics",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "January 12 2025",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "Power BI",
+          "recovered": true,
+          "token_coverage": 1.0
+        }
+      ],
+      "ocr_excerpt": "DataSpark Analytics Bytsttd: sooo. CIN: U72200KA2018PTC1 10234 | HR: hr@dataspark.in Se INTERNSHIP OFFER LETTER Ref: DSA/HR/INT/2025/0183 | Date: January 12, 2025 Dear Arjun Mehta, We are pleased to extend this offer of internship at DataSpark Analytics Pvt. Ltd. for the position of Data Analytics I"
+    },
+    {
+      "image": "ocr_fixture_scans/data_analytics_internship_offer__messy_4.jpg",
+      "source_document": "data_analytics_internship_offer.pdf",
+      "fields": [
+        {
+          "field": "Internship Offer Letter",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "Data Analytics Intern",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "DataSpark Analytics",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "January 12 2025",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "Power BI",
+          "recovered": true,
+          "token_coverage": 1.0
+        }
+      ],
+      "ocr_excerpt": ". DataSpark Analytics. Py 1. Ltd. 560103 . CIN: U72200KA2018PTC 110234 | HR: hr@dataspark.in _. oS INTERNSHIP OFFER LETTER . Ret: DSA/HR/INT/2025/0183 | Date: January 12, 2025 \u00b0 Dear Arjun Mehta, We are pleased to extend this offer of internship at DataSpark Analytics Pvt. Ltd. for the Position of D"
+    },
+    {
+      "image": "ocr_fixture_scans/data_analytics_internship_offer__messy_5.jpg",
+      "source_document": "data_analytics_internship_offer.pdf",
+      "fields": [
+        {
+          "field": "Internship Offer Letter",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "Data Analytics Intern",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "DataSpark Analytics",
+          "recovered": true,
+          "token_coverage": 1.0
+        },
+        {
+          "field": "January 12 2025",
+          "recovered": false,
+          "token_coverage": 0.667
+        },
+        {
+          "field": "Power BI",
+          "recovered": true,
+          "token_coverage": 1.0
+        }
+      ],
+      "ocr_excerpt": "DataSpark Analytics. Ruts Ltd sso GIN: U72200KA2018PTC1 10234 | HR: hr@dataspark.in INTERNSHIP OFFER LETTER Ref: DSA/HR/INT/2028/0183 | Date: Januaty 12, 2025 Dear Arjun-Mehta, We are pleased to extend this offer of internship at DataSpark Analytics Pvt. Ltd. for the position of Data Analytics Inter"
+    }
+  ]
+}

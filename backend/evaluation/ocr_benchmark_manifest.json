@@ -1,0 +1,242 @@
+[
+  {
+    "image": "ocr_fixture_scans/python_data_science_cert__messy_1.jpg",
+    "source_document": "python_data_science_cert.pdf",
+    "expected_fields": [
+      "Certificate of Completion",
+      "Arjun Mehta",
+      "Python for Data Science",
+      "DeepLearning.AI",
+      "March 15 2023"
+    ],
+    "fixture_kind": "synthetically degraded scan of a visibly watermarked demo document"
+  },
+  {
+    "image": "ocr_fixture_scans/python_data_science_cert__messy_2.jpg",
+    "source_document": "python_data_science_cert.pdf",
+    "expected_fields": [
+      "Certificate of Completion",
+      "Arjun Mehta",
+      "Python for Data Science",
+      "DeepLearning.AI",
+      "March 15 2023"
+    ],
+    "fixture_kind": "synthetically degraded scan of a visibly watermarked demo document"
+  },
+  {
+    "image": "ocr_fixture_scans/python_data_science_cert__messy_3.jpg",
+    "source_document": "python_data_science_cert.pdf",
+    "expected_fields": [
+      "Certificate of Completion",
+      "Arjun Mehta",
+      "Python for Data Science",
+      "DeepLearning.AI",
+      "March 15 2023"
+    ],
+    "fixture_kind": "synthetically degraded scan of a visibly watermarked demo document"
+  },
+  {
+    "image": "ocr_fixture_scans/python_data_science_cert__messy_4.jpg",
+    "source_document": "python_data_science_cert.pdf",
+    "expected_fields": [
+      "Certificate of Completion",
+      "Arjun Mehta",
+      "Python for Data Science",
+      "DeepLearning.AI",
+      "March 15 2023"
+    ],
+    "fixture_kind": "synthetically degraded scan of a visibly watermarked demo document"
+  },
+  {
+    "image": "ocr_fixture_scans/python_data_science_cert__messy_5.jpg",
+    "source_document": "python_data_science_cert.pdf",
+    "expected_fields": [
+      "Certificate of Completion",
+      "Arjun Mehta",
+      "Python for Data Science",
+      "DeepLearning.AI",
+      "March 15 2023"
+    ],
+    "fixture_kind": "synthetically degraded scan of a visibly watermarked demo document"
+  },
+  {
+    "image": "ocr_fixture_scans/sentiment_analysis_project__messy_1.jpg",
+    "source_document": "sentiment_analysis_project.pdf",
+    "expected_fields": [
+      "Sentiment Analysis",
+      "Arjun Mehta",
+      "National Institute of Technology",
+      "November 2024",
+      "BERT"
+    ],
+    "fixture_kind": "synthetically degraded scan of a visibly watermarked demo document"
+  },
+  {
+    "image": "ocr_fixture_scans/sentiment_analysis_project__messy_2.jpg",
+    "source_document": "sentiment_analysis_project.pdf",
+    "expected_fields": [
+      "Sentiment Analysis",
+      "Arjun Mehta",
+      "National Institute of Technology",
+      "November 2024",
+      "BERT"
+    ],
+    "fixture_kind": "synthetically degraded scan of a visibly watermarked demo document"
+  },
+  {
+    "image": "ocr_fixture_scans/sentiment_analysis_project__messy_3.jpg",
+    "source_document": "sentiment_analysis_project.pdf",
+    "expected_fields": [
+      "Sentiment Analysis",
+      "Arjun Mehta",
+      "National Institute of Technology",
+      "November 2024",
+      "BERT"
+    ],
+    "fixture_kind": "synthetically degraded scan of a visibly watermarked demo document"
+  },
+  {
+    "image": "ocr_fixture_scans/sentiment_analysis_project__messy_4.jpg",
+    "source_document": "sentiment_analysis_project.pdf",
+    "expected_fields": [
+      "Sentiment Analysis",
+      "Arjun Mehta",
+      "National Institute of Technology",
+      "November 2024",
+      "BERT"
+    ],
+    "fixture_kind": "synthetically degraded scan of a visibly watermarked demo document"
+  },
+  {
+    "image": "ocr_fixture_scans/sentiment_analysis_project__messy_5.jpg",
+    "source_document": "sentiment_analysis_project.pdf",
+    "expected_fields": [
+      "Sentiment Analysis",
+      "Arjun Mehta",
+      "National Institute of Technology",
+      "November 2024",
+      "BERT"
+    ],
+    "fixture_kind": "synthetically degraded scan of a visibly watermarked demo document"
+  },
+  {
+    "image": "ocr_fixture_scans/smart_india_hackathon_winner__messy_1.jpg",
+    "source_document": "smart_india_hackathon_winner.pdf",
+    "expected_fields": [
+      "Smart India Hackathon 2024",
+      "Winner 1st Prize",
+      "Arjun Mehta",
+      "IIT Bombay",
+      "December 2024"
+    ],
+    "fixture_kind": "synthetically degraded scan of a visibly watermarked demo document"
+  },
+  {
+    "image": "ocr_fixture_scans/smart_india_hackathon_winner__messy_2.jpg",
+    "source_document": "smart_india_hackathon_winner.pdf",
+    "expected_fields": [
+      "Smart India Hackathon 2024",
+      "Winner 1st Prize",
+      "Arjun Mehta",
+      "IIT Bombay",
+      "December 2024"
+    ],
+    "fixture_kind": "synthetically degraded scan of a visibly watermarked demo document"
+  },
+  {
+    "image": "ocr_fixture_scans/smart_india_hackathon_winner__messy_3.jpg",
+    "source_document": "smart_india_hackathon_winner.pdf",
+    "expected_fields": [
+      "Smart India Hackathon 2024",
+      "Winner 1st Prize",
+      "Arjun Mehta",
+      "IIT Bombay",
+      "December 2024"
+    ],
+    "fixture_kind": "synthetically degraded scan of a visibly watermarked demo document"
+  },
+  {
+    "image": "ocr_fixture_scans/smart_india_hackathon_winner__messy_4.jpg",
+    "source_document": "smart_india_hackathon_winner.pdf",
+    "expected_fields": [
+      "Smart India Hackathon 2024",
+      "Winner 1st Prize",
+      "Arjun Mehta",
+      "IIT Bombay",
+      "December 2024"
+    ],
+    "fixture_kind": "synthetically degraded scan of a visibly watermarked demo document"
+  },
+  {
+    "image": "ocr_fixture_scans/smart_india_hackathon_winner__messy_5.jpg",
+    "source_document": "smart_india_hackathon_winner.pdf",
+    "expected_fields": [
+      "Smart India Hackathon 2024",
+      "Winner 1st Prize",
+      "Arjun Mehta",
+      "IIT Bombay",
+      "December 2024"
+    ],
+    "fixture_kind": "synthetically degraded scan of a visibly watermarked demo document"
+  },
+  {
+    "image": "ocr_fixture_scans/data_analytics_internship_offer__messy_1.jpg",
+    "source_document": "data_analytics_internship_offer.pdf",
+    "expected_fields": [
+      "Internship Offer Letter",
+      "Data Analytics Intern",
+      "DataSpark Analytics",
+      "January 12 2025",
+      "Power BI"
+    ],
+    "fixture_kind": "synthetically degraded scan of a visibly watermarked demo document"
+  },
+  {
+    "image": "ocr_fixture_scans/data_analytics_internship_offer__messy_2.jpg",
+    "source_document": "data_analytics_internship_offer.pdf",
+    "expected_fields": [
+      "Internship Offer Letter",
+      "Data Analytics Intern",
+      "DataSpark Analytics",
+      "January 12 2025",
+      "Power BI"
+    ],
+    "fixture_kind": "synthetically degraded scan of a visibly watermarked demo document"
+  },
+  {
+    "image": "ocr_fixture_scans/data_analytics_internship_offer__messy_3.jpg",
+    "source_document": "data_analytics_internship_offer.pdf",
+    "expected_fields": [
+      "Internship Offer Letter",
+      "Data Analytics Intern",
+      "DataSpark Analytics",
+      "January 12 2025",
+      "Power BI"
+    ],
+    "fixture_kind": "synthetically degraded scan of a visibly watermarked demo document"
+  },
+  {
+    "image": "ocr_fixture_scans/data_analytics_internship_offer__messy_4.jpg",
+    "source_document": "data_analytics_internship_offer.pdf",
+    "expected_fields": [
+      "Internship Offer Letter",
+      "Data Analytics Intern",
+      "DataSpark Analytics",
+      "January 12 2025",
+      "Power BI"
+    ],
+    "fixture_kind": "synthetically degraded scan of a visibly watermarked demo document"
+  },
+  {
+    "image": "ocr_fixture_scans/data_analytics_internship_offer__messy_5.jpg",
+    "source_document": "data_analytics_internship_offer.pdf",
+    "expected_fields": [
+      "Internship Offer Letter",
+      "Data Analytics Intern",
+      "DataSpark Analytics",
+      "January 12 2025",
+      "Power BI"
+    ],
+    "fixture_kind": "synthetically degraded scan of a visibly watermarked demo document"
+  }
+]

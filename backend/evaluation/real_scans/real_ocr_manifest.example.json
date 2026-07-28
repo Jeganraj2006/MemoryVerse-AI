@@ -1,0 +1,16 @@
+{
+  "dataset_disclosure": "Replace with the exact source, consent, anonymization, and scan-condition disclosure.",
+  "fixtures": [
+    {
+      "image": "real_scans/anonymized_scan_01.jpg",
+      "source_document": "anonymized real scan 01",
+      "expected_fields": [
+        "Certificate title",
+        "Issuer",
+        "Completion date",
+        "Course or achievement",
+        "Primary skill"
+      ]
+    }
+  ]
+}

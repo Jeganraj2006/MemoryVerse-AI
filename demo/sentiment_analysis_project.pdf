@@ -1,0 +1,251 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 1
+/Kids [ 4 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 3605
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 76.86614 767.1969 cm
+q
+.486275 .227451 .929412 rg
+BT 1 0 0 1 0 -8 Tm /F2 20 Tf 12 TL (Sentiment Analysis on Social Media Data) Tj T* ET
+Q
+Q
+q
+1 0 0 1 76.86614 747.1969 cm
+q
+.215686 .254902 .317647 rg
+BT 1 0 0 1 0 -1 Tm /F2 13 Tf 12 TL (Machine Learning Capstone Project Report) Tj T* ET
+Q
+Q
+q
+1 0 0 1 76.86614 740.1969 cm
+q
+1 w
+1 J
+.486275 .227451 .929412 RG
+n 0 0 m 441.5433 0 l S
+Q
+Q
+q
+1 0 0 1 76.86614 720.1969 cm
+q
+.419608 .447059 .501961 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Author: Arjun Mehta | Roll No: 21CS045 | B.Tech CSE \227 4th Year) Tj T* ET
+Q
+Q
+q
+1 0 0 1 76.86614 704.1969 cm
+q
+.419608 .447059 .501961 rg
+BT 1 0 0 1 0 3 Tm /F1 9 Tf 12 TL (Institution: National Institute of Technology, Trichy | Date: November 2024) Tj T* ET
+Q
+Q
+q
+1 0 0 1 76.86614 686.0236 cm
+Q
+q
+1 0 0 1 76.86614 674.0236 cm
+q
+.215686 .254902 .317647 rg
+BT 1 0 0 1 0 -1 Tm /F2 13 Tf 12 TL (Abstract) Tj T* ET
+Q
+Q
+q
+1 0 0 1 76.86614 604.0236 cm
+q
+.121569 .160784 .215686 rg
+BT 1 0 0 1 0 54 Tm /F1 10 Tf 16 TL (This project implements a sentiment analysis pipeline on Twitter/X social media data using Natural) Tj T* -0.074724 Tw (Language Processing \(NLP\) and deep learning techniques. The model achieves 89.3% accuracy on) Tj T* 0 Tw (a balanced dataset of 50,000 tweets, outperforming the baseline VADER lexicon approach by 12.4) Tj T* (percentage points.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 76.86614 589.5197 cm
+Q
+q
+1 0 0 1 76.86614 577.5197 cm
+q
+.215686 .254902 .317647 rg
+BT 1 0 0 1 0 -1 Tm /F2 13 Tf 12 TL (Technologies Used) Tj T* ET
+Q
+Q
+q
+1 0 0 1 76.86614 539.5197 cm
+q
+.121569 .160784 .215686 rg
+BT 1 0 0 1 0 22 Tm /F1 10 Tf 16 TL (Python \267 TensorFlow \267 Keras \267 BERT \(bert-base-uncased\) \267 Hugging Face Transformers \267 NLTK \267) Tj T* (SpaCy \267 Pandas \267 NumPy \267 Matplotlib \267 Scikit-learn \267 Twitter API v2 \267 Google Colab) Tj T* ET
+Q
+Q
+q
+1 0 0 1 76.86614 525.0157 cm
+Q
+q
+1 0 0 1 76.86614 513.0157 cm
+q
+.215686 .254902 .317647 rg
+BT 1 0 0 1 0 -1 Tm /F2 13 Tf 12 TL (Methodology) Tj T* ET
+Q
+Q
+q
+1 0 0 1 76.86614 411.0157 cm
+q
+BT 1 0 0 1 0 86 Tm 16 TL /F1 10 Tf .121569 .160784 .215686 rg (1. Data Collection: Scraped 75,000 tweets using Twitter API v2 across 5 categories \(positive,) Tj T* (negative, neutral, sarcastic, mixed\).) Tj  T* (2. Preprocessing: Tokenization, stop-word removal, lemmatization using SpaCy.) Tj  T* (3. Model: Fine-tuned BERT transformer with custom classification head \(3-class output\).) Tj  T* (4. Training: AdamW optimizer, learning rate 2e-5, batch size 32, 5 epochs on T4 GPU.) Tj  T* (5. Evaluation: Accuracy 89.3%, F1-score 0.887, AUC-ROC 0.94.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 76.86614 396.5118 cm
+Q
+q
+1 0 0 1 76.86614 384.5118 cm
+q
+.215686 .254902 .317647 rg
+BT 1 0 0 1 0 -1 Tm /F2 13 Tf 12 TL (Results) Tj T* ET
+Q
+Q
+q
+1 0 0 1 76.86614 330.5118 cm
+q
+BT 1 0 0 1 0 38 Tm 16 TL /F1 10 Tf .121569 .160784 .215686 rg (Final model accuracy: ) Tj /F2 10 Tf (89.3%) Tj /F1 10 Tf ( on held-out test set.) Tj  T* (The project was evaluated as part of the 6th semester Machine Learning course under Dr. Priya) Tj T* (Sundarajan, with a grade of ) Tj /F2 10 Tf (A+ \(9.5/10\)) Tj /F1 10 Tf (.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+q
+1 0.78 0.78 rg
+BT
+/F2-0 27 Tf
+32.4 TL
+ET
+0.848048 0.529919 -0.529919 0.848048 297.6378 420.9449 cm
+BT
+1 0 0 1 -306.0045 0 Tm
+(SYNTHETIC DEMO \055 NOT A REAL CREDENTIAL) Tj
+T*
+ET
+Q
+q
+0.75 0.05 0.05 rg
+BT
+/F2-0 8.5 Tf
+10.2 TL
+ET
+BT
+1 0 0 1 137.3193 10 Tm
+(SYNTHETIC HACKATHON DEMO DOCUMENT \055 NOT VALID FOR VERIFICATION) Tj
+T*
+ET
+Q
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000113 00000 n 
+0000000162 00000 n 
+0000000417 00000 n 
+0000004074 00000 n 
+0000004181 00000 n 
+0000004288 00000 n 
+0000004400 00000 n 
+trailer
+<<
+/Size 10
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+4512
+%%EOF

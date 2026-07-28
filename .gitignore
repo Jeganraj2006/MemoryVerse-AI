@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# ChromaDB vector store (regeneratable from Supabase data)
+backend/chroma_data/
+
+# Node
+node_modules/
+frontend/dist/
+frontend/build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Demo evidence files are intentionally versioned for the deterministic judge demo.
+# Logs
+*.log
+
+# Project-specific local envs and databases
+.venv_313/
+backend/db/local_db.json
+
+
