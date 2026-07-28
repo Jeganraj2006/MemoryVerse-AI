@@ -100,12 +100,12 @@ Use **one** SQL path:
 
 ### 2. Backend
 
-Windows Command Prompt:
+Windows (PowerShell):
 
-```bat
+```powershell
 cd backend
-py -3.11 -m venv .venv
-.venv\Scripts\activate
+py -3.11 -m venv venv
+.\venv\Scripts\activate
 python -m pip install -r requirements.txt
 copy .env.example .env
 python -m uvicorn main:app --reload --port 8000
@@ -115,8 +115,8 @@ macOS/Linux:
 
 ```bash
 cd backend
-python3.11 -m venv .venv
-source .venv/bin/activate
+python3.11 -m venv venv
+source venv/bin/activate
 python -m pip install -r requirements.txt
 cp .env.example .env
 python -m uvicorn main:app --reload --port 8000
@@ -126,11 +126,21 @@ Fill `.env` with your Gemini API key and server-side Supabase secret. Never plac
 
 ### 3. Frontend
 
+Windows (PowerShell):
+
+```powershell
+cd frontend
+npm install
+copy .env.example .env
+npm run dev
+```
+
+macOS/Linux:
+
 ```bash
 cd frontend
 npm install
-# Windows: copy .env.example .env
-# macOS/Linux: cp .env.example .env
+cp .env.example .env
 npm run dev
 ```
 
